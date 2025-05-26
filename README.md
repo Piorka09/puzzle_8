@@ -33,7 +33,7 @@ Sigue estos pasos para poner en marcha el 8-Puzzle Solver en tu máquina local:
 1.  **Clona el repositorio:**
     ```bash
     git clone [https://github.com/Piorka09/puzzle_8.git]
-    cd puzzle8/src
+    cd puzzle-8/src
     ```
 
 
