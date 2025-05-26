@@ -32,7 +32,7 @@ Sigue estos pasos para poner en marcha el 8-Puzzle Solver en tu máquina local:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/Piorka09/puzzle-8.git]
+    git clone [https://github.com/Piorka09/puzzle_8.git]
     cd tu-proyecto-puzzle8/src
     ```
 
@@ -44,7 +44,7 @@ Sigue estos pasos para poner en marcha el 8-Puzzle Solver en tu máquina local:
 
 3.  **Ejecuta el script:**
     ```bash
-    python puzzle_8.py
+    python puzzle-8.py
     ```
 
 ## 👤 Autor
