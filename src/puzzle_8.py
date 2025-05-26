@@ -46,8 +46,8 @@ class NodoAStar:
 
     def calcular_distancia_manhattan(self, estado_actual):
         distancia = 0
-        # --- CAMBIO REALIZADO ---
-        # Se actualizaron las posiciones para que coincidan con el nuevo estado meta.
+      
+        #estado meta.
         # Este diccionario almacena la posición (fila, columna) ideal para cada número
         # en el estado meta. El 0 representa el espacio vacío.
         meta_positions = {
@@ -73,8 +73,7 @@ class NodoAStar:
 
 # Función para verificar si el estado es el estado meta
 def es_estado_meta(estado):
-    # --- CAMBIO REALIZADO ---
-    # Se actualizó el estado meta al que solicitaste.
+
     meta = ((1, 2, 3), (8, 0, 4), (7, 6, 5)) # Define el estado meta como una tupla de tuplas.
     return estado == meta # Retorna True si el estado actual es igual al estado meta, False en caso contrario.
 
@@ -219,7 +218,7 @@ def reconstruir_solucion(nodo):
         nodo = nodo.padre # Retrocede al nodo padre.
     return camino[::-1] # Retorna el camino invertido para que empiece desde el estado inicial hasta el meta.
 
-# --- Interfaz Gráfica Pygame (Sin cambios en esta sección, funciona con la nueva lógica) ---
+# --- Interfaz Gráfica Pygame ---
 
 def main():
     pygame.init() # Inicializa todos los módulos de Pygame.
