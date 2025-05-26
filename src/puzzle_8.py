@@ -46,8 +46,7 @@ class NodoAStar:
 
     def calcular_distancia_manhattan(self, estado_actual):
         distancia = 0
-        # --- CAMBIO REALIZADO ---
-        # Se actualizaron las posiciones para que coincidan con el nuevo estado meta.
+    
         # Este diccionario almacena la posición (fila, columna) ideal para cada número
         # en el estado meta. El 0 representa el espacio vacío.
         meta_positions = {
@@ -73,8 +72,7 @@ class NodoAStar:
 
 # Función para verificar si el estado es el estado meta
 def es_estado_meta(estado):
-    # --- CAMBIO REALIZADO ---
-    # Se actualizó el estado meta al que solicitaste.
+   
     meta = ((1, 2, 3), (8, 0, 4), (7, 6, 5)) # Define el estado meta como una tupla de tuplas.
     return estado == meta # Retorna True si el estado actual es igual al estado meta, False en caso contrario.
 
@@ -394,7 +392,7 @@ def main():
         if algoritmo_seleccionado: # Si se ha seleccionado un algoritmo.
             # Muestra el nombre del algoritmo seleccionado.
             selected_alg_text = font_medium.render(f"Algoritmo: {algoritmo_seleccionado}", True, BLUE)
-            screen.blit(selected_alg_text, (450, 60))
+            screen.blit(selected_alg_text, (550, 60))
 
         # Define el tamaño y el espaciado para la visualización de los puzzles.
         PUZZLE_TILE_SIZE = 100

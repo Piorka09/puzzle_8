@@ -32,10 +32,9 @@ Sigue estos pasos para poner en marcha el 8-Puzzle Solver en tu máquina local:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/tu-proyecto-puzzle8.git](https://github.com/tu-usuario/tu-proyecto-puzzle8.git)
+    git clone [https://github.com/Piorka09/puzzle-8.git]
     cd tu-proyecto-puzzle8/src
     ```
-    *(Asegúrate de reemplazar `tu-usuario` y `tu-proyecto-puzzle8` con los datos de tu repositorio.)*
 
 
 2.  **Instala las dependencias:**
@@ -45,10 +44,8 @@ Sigue estos pasos para poner en marcha el 8-Puzzle Solver en tu máquina local:
 
 3.  **Ejecuta el script:**
     ```bash
-    python puzzle8_solver.py
+    python puzzle_8.py
     ```
-
-
 
 ## 👤 Autor
 
